@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZOMI | Decentralized Perpetual Exchange</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="./image/new_logo.png" alt="logo-img">
+            <h3>Romi Finanace</h3>
+        </div>
+        <div class="nav_option">
+            <a href="/home">Home</a>
+            <a href="/home">Dashboard</a>
+            <a href="/home">NFT</a>
+            <a href="/home">Earn</a>
+            <a href="/home">Buy</a>
+            <a href="/home">Referrals</a>
+            <a href="/home">Ecosystem</a>
+            <a href="/home">About</a>
+        </div>
+        <div class="nav_btns">
+            <button class="trade_btn">Trade</button>
+            <button class="wallet_btn">
+                <i class="fa-solid fa-wallet"></i>
+                <span>Connect-Wallet</span>
+            </button>
+            <div class="dropdown network_btn">
+                <div onclick="myFunction()" class="dropbtn_box">  
+                    <img src="https://zomi.finance/static/media/ic_eth_24.6b1d8a1d.svg" onclick="myFunction()" alt="compass" class="dropbtn compass">
+                    <i class="fa-solid fa-ellipsis-vertical dropbtn" ></i>
+                </div>
+                <div id="myDropdown" class="dropdown-content ">
+                    <h4>Network</h4>
+                    <a href="#">
+                        <img src="https://zomi.finance/static/media/ic_eth_24.6b1d8a1d.svg" class="compass">
+                        <span> Ethereum</span>
+                        </a>
+                    <hr>
+                    <a href="#">
+                        <i class="fa-solid fa-gear"></i>
+                        <span> Setting</span>
+                        </a>
+                    <a href="#">
+                        <i class="fa-solid fa-earth-americas"></i>
+                        <span> Language</span>
+                        </a>
+                  </div>
+            </div>
+        </div>
+    </header>
+    <div class="head_section">
+        <div class="heading_sec">
+            <div class="heading">Decentralized <br>
+                Perpetual Exchange</div><br>
+            <div class="some_info">Trade BTC, ETH, AVAX and other top <br> cryptocurrencies with up to 30x leverage <br> directly from your wallet<br></div>
+            <button class="trade_btn">Launch Exchange</button>
+        </div>
+        <div class="status">
+            <div class="status_box">
+                <img src="https://zomi.finance/static/media/ic_trading.2c53815a.svg">
+                <div class="data-info">
+                    <div class="text">Total Trading Volume</div>
+                    <div class="data">$0</div>
+                </div>
+            </div>
+            <div class="status_box" >
+                <img src="https://zomi.finance/static/media/ic_stats.f0a18011.svg" style="width:45px;">
+                <div class="data-info">
+                    <div class="text">Open Interest</div>
+                    <div class="data">$0</div>
+                </div>
+            </div>
+            <div class="status_box">
+                <img src="https://zomi.finance/static/media/ic_totaluser.ae09b310.svg" style="width:45px;">
+                <div class="data-info">
+                    <div class="text">Total Users</div>
+                    <div class="data">$0</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="info_section">
+        <div class="info_box">
+            <div class="info_card">
+                    <img src="https://zomi.finance/static/media/ic_liquidity.505b3f30.svg" >
+                <div class="info_head">
+                    <span>Reduce Liquidations Risks</span>
+                    </div>
+                <div class="info_detail">An aggregate of high-quality price <br> feeds determine when liquidations <br>occur. This keeps positions safe <br> from temporary wicks.</div>
+            </div>
+            <div class="info_card">
+                <img src="https://zomi.finance/static/media/ic_cost.b4a729d3.svg" >
+                <div class="info_head">
+                    <span>Save on Costs</span>
+                    </div>
+                <div class="info_detail">Enter and exit positions with <br> minimal spread and zero price <br> impact. Get the optimal price <br> without incurring additional costs.</div>
+            </div>
+            <div class="info_card">
+                <img src="https://zomi.finance/static/media/ic_simpleswaps.2005009f.svg" >
+                <div class="info_head">
+                    <span>Simple Swaps</span>
+                    </div>
+                <div class="info_detail">Open positions through a simple <br> swap interface. Conveniently swap <br>from any supported asset into the <br> position of your choice.</div>
+            </div>
+        </div>
+    </div>
+    <div class="token_section">
+        <div class="token_box">
+            <div class="token_title">Two tokens create <br> our ecosystem</div>
+            <div class="card_box">
+                <div class="token_card">
+                    <div class="t_card_head">
+                        <img src="./image/frame.png">
+                        <span> &nbsp; $ROMI</span>
+                    </div>
+                    <div class="t_card_content">$ROMI is the utility and governance token. Accrues 30% of the <br> platform's generated fees.</div>
+                    <div class="t_card_data">Ethereum APR: 0.00%</div>
+                    <div>
+                        <button class="trade_btn">Buy</button>
+                        <button class="trade_btn btn_dark" >Read more</button>
+                    </div>
+                </div>
+                <div class="token_card">
+                    <div class="t_card_head">
+                        <img src="./image/frame2.png">
+                        <span> &nbsp; $ZLP</span>
+                    </div>
+                    <div class="t_card_content">$ZLP is the liquidity provider token. Accrues 70% of the <br> platform's generated fees.</div>
+                    <div class="t_card_data">Ethereum APR: 1,651,261,921.92%</div>
+                    <div>
+                        <button class="trade_btn">Buy</button>
+                        <button class="trade_btn btn_dark" >Read more</button>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <footer>
+        <div class="logo f_logo">
+            <img src="./image/new_logo.png" alt="logo-img">
+            <h3>Romi Finanace</h3>
+        </div>
+        <div class="media_link">
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-solid fa-m" style="font-size: 26px;"></i>
+            <i class="fa-brands fa-github"></i>
+            <i class="fa-brands fa-telegram"></i>
+            <i class="fa-brands fa-discord"></i>
+        </div>
+       <div class="terms">
+        <a href="/">Terms and Conditions</a>
+        <a href="/">Refferal Terms</a>
+        <a href="/">Media Kit</a>
+       </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
